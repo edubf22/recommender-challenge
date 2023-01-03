@@ -1,4 +1,4 @@
-# Netflix Challenge
+# Netflix Challenge (In Progress)
 Side project where I try to build a recommender engine. Data is from the Netflix Prize and can be downloaded from Kaggle (see `data` folder for more information). 
 
 # Goal
@@ -21,5 +21,5 @@ Another aspect we can consider is how many ratings a given movie has received. T
 !![Rating count per movie](saves/images/rating_permovie_distrib.png)
 
 To try and make the dataset more manageable, we follow two different approaches:
-* Filter out movies that have been reviewed very few times
-* Filter out users that have given very few ratings 
+* **Filter out movies that have been reviewed very few times.** This reduces the dataset size and also noise in the rating distribution. 
+* **Filter out users that have given out very few ratings.** The contribution from these users may not be as valuable when making predictions because they haven't reviewed enough movies. This will also reduce the size of that dataset.
