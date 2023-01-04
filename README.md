@@ -16,7 +16,7 @@ The figure below gives an idea of the size of the dataset. Using the two data fi
 
 ![Rating distribution across whole dataset](saves/images/rating_distrib.png)
 
-Another aspect we can consider is how many ratings a given movie has received. This is shown in the image below. For readability, 
+Another aspect we can consider is how many ratings a given movie has received. This is shown in the image below. For readability, a limit of 9999 max ratings was used. Because of that, a large number of movies is shown near `n_ratings = 10000`. It is noticeable that a significant number of movies have very few ratings (indicated by first large bar in the histogram), which may not be valuable to our model when predicting ratings.  
 
 ![Rating count per movie](saves/images/rating_permovie_distrib.png)
 
